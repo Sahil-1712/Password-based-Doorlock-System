@@ -1,0 +1,33 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Thu Jul 17 15:23:42 2025
+# Process ID: 3760
+# Current directory: D:/Vivado/door_lock
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent32 D:\Vivado\door_lock\door_lock.xpr
+# Log file: D:/Vivado/door_lock/vivado.log
+# Journal file: D:/Vivado/door_lock\vivado.jou
+# Running On        :DESKTOP-6BHT1GB
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz
+# CPU Frequency     :2712 MHz
+# CPU Physical cores:2
+# CPU Logical cores :4
+# Host memory       :17015 MB
+# Swap memory       :2550 MB
+# Total Virtual     :19565 MB
+# Available Virtual :13515 MB
+#-----------------------------------------------------------
+start_gui
+open_project D:/Vivado/door_lock/door_lock.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config D:/Vivado/door_lock/door_lock_tb_behav.wcfg
+source door_lock_tb.tcl
+close_sim
+close_project
+open_project D:/Vivado/dual_port_ram/dual_port_ram.xpr
+update_compile_order -fileset sources_1
