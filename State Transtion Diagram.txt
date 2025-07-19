@@ -1,0 +1,16 @@
+[IDLE]
+  |
+  |-- enter --> [D1]
+                  |
+                  |-- enter --> [D2]
+                                  |
+                                  |-- enter --> [D3]
+                                                  |
+                                                  |-- enter --> [D4]
+                                                                      |
+                                                                      |-- enter --> [CHECK]
+                                                                                          |
+                                                                                          |-- match --> [UNLOCKED]
+                                                                                          |-- no match --> [ERROR]
+                                                                                                                 |
+                                                                                                                 |-- reset --> [IDLE]
